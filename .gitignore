@@ -15,3 +15,7 @@ Thumbs.db
 # IDE
 .idea/
 .vscode/
+
+# Data
+/SPY_*.csv
+/QQQ_*.csv

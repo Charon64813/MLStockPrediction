@@ -1,0 +1,26 @@
+# ---------------------------------------------------------------------------
+# Market Regime & Machine Learning Prediction -- runtime dependencies
+#
+# Version pins reflect the environment this project was actually executed in:
+#   conda env : Offlineresearch   (notebook kernelspec: "Offlineresearch")
+#   Python    : 3.11.15
+#   Platform  : Windows
+#
+# Install:
+#   pip install -r requirements.txt
+# ---------------------------------------------------------------------------
+
+# --- Direct dependencies (imported by Project.ipynb) ---
+pandas==3.0.3
+numpy==2.4.6
+matplotlib==3.11.0
+scikit-learn==1.9.0
+xgboost==3.2.0
+yfinance==1.6.0
+requests==2.34.2
+
+# --- Transitive dependency, pinned to reproduce the original run ---
+scipy==1.17.1
+
+# --- Needed only to execute Project.ipynb as a Jupyter kernel ---
+ipykernel==7.3.0
